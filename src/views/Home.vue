@@ -1,7 +1,7 @@
 <template>
   <div>
     <Container>
-      <h2 class="mb-3">Dashboard</h2>
+      <h2 class="mb-3">{{ $t('dashboard') }}</h2>
     </Container>
     <Container :slim="true">
       <router-link
@@ -10,10 +10,10 @@
         :to="{ name: 'proposals', params: { key: namespace.key } }"
       >
         <Block class="text-center">
-          <Token :address="namespace.token" size="128" class="mb-4" />
+          <Token address="0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16" size="128" class="mb-4" />
           <div>
             <h2>{{ namespace.name }} {{ namespace.symbol }}</h2>
-            <div v-if="namespace.verified.length > 0">
+            <!-- <div v-if="namespace.verified.length > 0">
               <Avatar
                 v-for="verified in namespace.verified.slice(0, 5)"
                 :key="verified"
@@ -24,7 +24,7 @@
               />
               <Icon name="check" size="22" class="v-align-middle ml-2 mr-1" />
               {{ $n(namespace.verified.length) }}
-            </div>
+            </div> -->
           </div>
         </Block>
       </router-link>

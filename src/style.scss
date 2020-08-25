@@ -4,7 +4,7 @@
 
 html, body, #app {
   background-color: $black;
-  color: $gray;
+  color: #a98592;
   font-family: $font-weight-normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,7 @@ html, body, #app {
 }
 
 h1, h2, h3, h4 {
-  color: $white;
+  color: #5b2739;
   font-family: $font-weight-bold;
 }
 
@@ -32,22 +32,22 @@ p {
 }
 
 a {
-  color: $white;
+  color: #5b2739;
 
   &:hover {
-    color: $white !important;
+    color: #5b2739 !important;
     cursor: pointer;
     text-decoration: none !important;
   }
 }
 
 ::placeholder {
-  color: $gray;
+  color: #a98592;
 }
 
 .input {
   outline: none;
-  color: $white;
+  color: #5b2739;
   background-color: transparent;
   border: none;
 }

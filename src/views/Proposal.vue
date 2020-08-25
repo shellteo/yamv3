@@ -11,17 +11,18 @@
         <div class="col-12 col-lg-8 float-left pr-0 pr-lg-5">
           <div class="px-4 px-md-0">
             <h1 class="mb-2">
-              {{ payload.name }}
+              {{ proposalCN[id].name }}
               <span v-text="`#${id.slice(0, 7)}`" class="text-gray" />
             </h1>
             <State :proposal="proposal" class="mb-4" />
-            <UiMarkdown :body="payload.body" class="mb-6" />
+            <UiMarkdown :body="proposalCN[id].body" class="mb-6" />
           </div>
           <Block
             v-if="ts >= payload.start && ts < payload.end"
             class="mb-4"
-            title="Cast your vote"
+            :title="$t('Cast your vote')"
           >
+            <p><a :href="'https://snapshot.page/#/yam/proposal/' + id">👉去官方投票</a></p>
             <div class="mb-3">
               <UiButton
                 v-for="(choice, i) in payload.choices"
@@ -52,7 +53,7 @@
             <div class="mb-1">
               <b>Token</b>
               <span class="float-right text-white">
-                <Token :address="proposal.msg.token" class="mr-1" />
+                <Token address="0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16" class="mr-1" />
                 {{ namespace.symbol }}
               </span>
             </div>
@@ -132,6 +133,7 @@
 <script>
 import { mapActions } from 'vuex';
 import namespaces from '@/namespaces.json';
+import proposalCN from '@/proposal.json';
 
 export default {
   data() {
@@ -146,7 +148,8 @@ export default {
       results: [],
       modalOpen: false,
       selectedChoice: 0,
-      votingPower: 0
+      votingPower: 0,
+      proposalCN: proposalCN
     };
   },
   computed: {

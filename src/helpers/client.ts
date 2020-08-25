@@ -1,4 +1,4 @@
-let defaultRestApi = 'http://localhost:3000';
+let defaultRestApi = 'https://vote.balancer.finance';
 const domainName = window.location.hostname;
 if (domainName === 'beta.vote.balancer.finance')
   defaultRestApi = 'https://beta.vote.balancer.finance';

@@ -129,13 +129,13 @@ export default {
       background-color: transparent;
 
       &:hover {
-        background-color: $white !important;
+        background-color: #5b2739 !important;
         color: $black !important;
       }
     }
 
     &.selected {
-      background-color: $white !important;
+      background-color: #5b2739 !important;
       color: $black !important;
     }
   }

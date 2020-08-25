@@ -19,9 +19,9 @@ export default {
   line-height: 18px;
   height: 20px;
   width: 20px;
-  color: $white;
+  color: #5b2739;
   text-align: center;
-  background-color: $gray;
+  background-color: #a98592;
   border-radius: 10px;
   vertical-align: middle;
 }

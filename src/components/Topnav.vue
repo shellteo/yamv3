@@ -10,7 +10,7 @@
               style="padding-top: 2px;"
             >
               <img
-                src="~/@/assets/logo.svg"
+                src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16/logo.png"
                 class="mr-2 v-align-middle"
                 width="32"
                 height="32"

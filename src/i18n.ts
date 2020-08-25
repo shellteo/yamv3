@@ -3,17 +3,25 @@ import VueI18n from 'vue-i18n';
 
 Vue.use(VueI18n);
 
-const locale = 'en-US';
+const locale = 'zh';
 
-export default new VueI18n({
-  locale,
-  messages: {
-    en: {
-      messages: {
-        EMPTY_STATE: 'No results found'
-      }
+const messages = {
+  en: {
+    messages: {
+      EMPTY_STATE: 'No results found'
     }
   },
+  zh: {
+    dashboard: '控制台',
+    Proposals: '提案列表',
+    'Cast your vote': '投票哟～'
+  }
+}
+
+export default new VueI18n({
+  fallbackLocale: 'zh',
+  locale,
+  messages,
   numberFormats: {
     en: {
       currency: {

@@ -15,7 +15,7 @@
           </div>
           <div class="d-flex flex-items-center flex-auto">
             <h2 class="mr-2">
-              Proposals
+              {{ $t('Proposals') }}
               <UiCounter :counter="totalProposals" class="ml-1" />
             </h2>
           </div>
@@ -90,8 +90,8 @@ export default {
       return Object.fromEntries(
         Object.entries(this.proposals)
           .filter(proposal => {
-            if (!this.namespace.verified.includes(proposal[1].address))
-              return false;
+            /* if (!this.namespace.verified.includes(proposal[1].address))
+              return false; */
             if (this.selectedState === 'All') return true;
             if (
               this.selectedState === 'Active' &&
