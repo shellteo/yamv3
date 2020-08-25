@@ -1,7 +1,7 @@
 {
     "QmfNyNy72CTEDZL4d38vxhEcMuoVSPqZYigSWCPShCyXu6": {
-        "name": "YIP-8: Eliminate the 1 Million YAM Community Fund From Yip-2",
-        "body": "Summary:\nThis proposal would eliminate the 1 million YAM Community fund from YIP-1 bringing the YAM supply back to the original 5 million YAMs.\n\nMotivations:\n-The 1 million YAM community fund immediately increases YAM supply by 20% from the original YAM v1 supply of 5 million.  This sudden increase in supply is bearish for YAM prices and unnecessary.\n-YAM already has a treasury with which it can fund all of the same endeavors that the community fund can, while at the same time not increasing YAM supply.\n-Using the treasury forces fiscal responsibility on day 1 in that the community will only be spending funds it has accumulated in the treasury rather than funding endeavors with additional inflation.\n-YAM v1 treasury was able to accumulate almost $1 million in yCRV in the first 2 rebases.  There will likely be enough funds available in the treasury to fund endeavors after a few positive rebases without needing a separate slush fund."
+        "name": "YIP-8: 取消Yip-2中额外增发一百万YAM的提议",
+        "body": "摘要：\n此提案将从YIP-1中删除100万个YAM社区基金，使YAM的供应量恢复到最初的500万个YAM。\n \n动机：\n-这100万个YAM社区基金将使YAM的供应量立即增加20％从最初的YAM v1供应500万。供应的突然增加对YAM的价格是不利的，并且是不必要的。\n-YAM已经拥有了一个国库，可以用来资助社区基金可以进行的所有相同的工作，而同时又不会增加YAM的供应。\n-使用财政部可以从第一天开始就实行强制财务责任，社区可以是用财政部中积累的资金用于支出，而不是通过通货膨胀提供资金。\n-YAM v1财政部能够在第一年中累积将近100万美元的yCRV 2个基准。几次积极的rebase后，财政部将有足够的资金来为这项工作提供资金，而无需另外的备用资金。"
     },
     "QmaaHZwX3VbefNjr51oB3YUCBPUCJE1eatga5AVHygmqDW": {
         "name": "Add farming pools from Yam V1 plus others",
@@ -36,16 +36,16 @@
         "body": "25% of value to reward the delegators proportionally following this snapshot: https://raw.githubusercontent.com/yam-finance/yam-protocol/master/yam_delegator_snapshot_10650187_draft.json but rewarded in CRV from the treasury so not to dilute holders and not reduce conversion.  \n\nCRV rewards would then likely buy back in YAM lifting price keeping everyone happy. Due to the failings in the code I think it is better the delegators are made whole from the treasury."
     },
     "QmRMxkq98LJhFqJAC5GNCHrCwe3FFzxveb7MPzLYDCKT49": {
-        "name": "YIP-1: Proposal Mechanics",
-        "body": "Trent Elmore, Brock Elmore, Will Price, Clinton Bembrey, and Dan Elitzer propose the following items to serve as proposal mechanics during the transition from YAMv2 to YAMv3. Should this proposal be passed, past and future proposals that do not conform to these mechanics will be considered invalid.\n\nWhile the original launchers of Yam will be submitting proposals, this framework is intended to make clear that anyone meeting the minimum requirements is able to submit proposals, some of which may supersede ours. The power and value of YAM lies in the YAM community, and we are excited to see what the community brings to the table in this interim period and in YAMv3.\n\nIt should be noted that any proposal may not be implemented without approval from the YAM community. \n\nWe're also thrilled and humbled by the support we've received from many in the DeFi community that have rallied behind us. One special shout out we'd like to give is to the Balancer and Snapshot Labs teams who built and are hosting this governance portal. This was something they did not have to do but graciously offered as we sought ways to limit our influence over this process.\n\nItem 1:\n\nWe propose a 3 day minimum voting period, with a maximum voting period of 7 days. This will ensure tokenholders have adequate time to assess proposals and vote, while also ensuring an efficient process.\n\nItem 2:\n\nWe propose all proposals must have a deadline prior to September 7, 2020, to ensure adequate time for code implementation prior to audit. This means the latest that a proposal can be submitted is September 4, 2020.\n\nItem 3:\n\nWe propose that all proposals not approved by the deadline must be resubmitted in YAMv3 governance to be considered for implementation.\n\nItem 4: \n\nWe propose that a minimum of 100 YAMv2 be required to submit a proposal. This is to prevent proposal overload and ensure an efficient V2 to V3 governance process.\n\nItem 5:\n\nWe propose to utilize the 4% quorum requirement initially set in V1 for approval of YAMv2 governance decisions.\n\nItem 6:\n\nWe propose that when submitting a proposal, a block height for a snapshot of balances must be chosen. The snapshot of balances will serve as ground truth for voting power. This block must be the current block at the time of proposal start time (+/- 15 minutes). Any proposal found not to do this will be disregarded and considered invalid, even if it achieves sufficient votes.\n\nItem 7:\n\nWe propose that in the event of conflicting approved proposals, priority will be given to the proposal that was approved most recently. \n"
+        "name": "YIP-1: 提案机制",
+        "body": "Trent Elmore，Brock Elmore，Will Price，Clinton Bembrey和Dan Elitzer提出了以下条例，以作为从YAMv2到YAMv3过渡期间的提案机制。如果该提案获得通过，则与这些机制不符的过去和未来的提案都将被视为无效。\n \n尽管Yam的原始发布者将提交提案，但该框架旨在明确表明符合最低要求的任何人都是能够提交提案，其中一些提案可能会取代我们的提案。 YAM的力量和价值来自于YAM社区，我们很高兴看到该社区在此过渡时期和YAMv3中提出的方案。\n \n请注意，任何提案都必须在获得YAM社区批准的情况下才能实施。 \n \n我们也对DeFi社区中许多人的支持感到非常高兴和谦虚。我们要特别感谢建立并托管此治理门户的Balancer和Snapshot Labs团队。这不是他们必须要做的，而是在我们寻求一个对于投票本影响很小的方法时慷慨地提供。\n \n条例1：\n \n我们建议最少投票期为3天，最长投票期为7天。这将确保令牌持有人有足够的时间评估提案和投票，同时也确保了有效的流程。\n \n条例2：\n \n我们建议所有提案必须在2020年9月7日之前截止，以确保有足够的时间编写代码审核前实施。这意味着可以提交提案的最晚日期是2020年9月4日。\n \n条例3：\n\ n我们建议必须在YAMv3治理中重新提交所有未在截止日期之前批准的提案，以重新考虑实施。\n \n 条例 4：\n \n我们建议至少需要100 YAMv2才能提交提案。这是为了防止过多提案并确保有效的V2到V3治理流程。\n \n条例5：\n \n我们建议利用最初在V1中设置的4％法定要求来批准YAMv2治理决策。\n \n条例6 ：\n \n我们建议在提交投标时，必须选择余额快照的区块高度。余额的快照将成为投票权的基础。提案开始时间（+/- 15分钟）时，该区块必须是当前区块。即使提案获得足够的票数，任何被发现不这样做的提案也会被忽略并视为无效。\n \n条例7：\n \n我们建议，如果批准的提案相互冲突，则应优先考虑最近通过的提案。 \n"
     },
     "QmZdxDV3NuLzWdDPx4Bwi9zrcguCKkw2zUSLXWZmyBpNgg": {
         "name": "Send YAM into space",
         "body": "The proposal consists in allocating resources for SpaceX services to launch a cargo of yam (or any other reasonable amount of yam) into space, when YAM market capitalization will reach 1 trillion dollars."
     },
     "QmPGriN6d3TuWhFunvj3Qyf8ZMBhB3pBidDiWRg9KSweHV": {
-        "name": "YIP-10: Use 80/20 Balancer Pool for Governance",
-        "body": "This proposal would shift governance away from YAM to instead use BPT from a balancer pool with 80% YAM/20 WETH similar to Aave's new governance system outlined here - https://medium.com/aave/aavenomics-eeab650cccc2. This proposal would also add functionality to the rebaser to call gulp() on this pool during rebase. This would make liquidity added to the pool safe from losing funds during rebase. This proposal does not include any additional incentives to be provided to LPs on this pool.\n\nReasoning:\nThis would massively increase YAM trading liquidity over the current system where people must hold YAM in their wallet to participate in governance. With a modest fee of 1% on the balancer pool, LP's can reasonably expect a three figure APY from fees alone. It would be easy to get YAM whitelisted for weekly BAL rewards as well. Calling gulp() during rebase will protect LP funds from being stolen as is typically the case with rebasing tokens on balancer.\n\nThis would be a novel approach to governance but the benefits are significant. Governance participants would see a very high APY while significantly increasing YAM liquidity for trading and it requires no incentive on the part of YAM protocol."
+        "name": "YIP-10: 使用 80/20 平衡池治理社区",
+        "body": "该提议将把治理从YAM转移到具有80％YAM / 20 WETH的平衡器池中使用BPT，类似于此处概述的Aave的新治理系统-https://medium.com/aave/aavenomics-eeab650cccc2。该建议还将在重新设置基准的过程中向该重新定序器添加功能以在该池上调用gulp（）。这将使添加到池中的流动资金在重新定基期间不会丢失资金。该建议不包括向该池中的有限合伙人提供的任何其他激励措施。\n \n原因：\n这将大大增加现有系统中的YAM交易流动性，在该系统中，人们必须将YAM放在钱包中才能参与治理。 LP只需在平衡器池中收取1％的适度费用，就可以合理地预期仅凭费用一个三位数的APY。将YAM列入每周BAL奖励也很容易。在重置基准期间调用gulp（）可以防止LP资金被盗，就像在平衡器上重新标记令牌的情况一样。\n \n这将是一种新颖的治理方法，但其好处是可观的。治理参与者会看到非常高的APY，同时会大大增加交易的YAM流动性，并且不需要YAM协议方面的激励。"
     },
     "QmYpphXowNuyum74hPwAx6JwRyuE2v2XmQbRofrPbdHofM": {
         "name": "Delegator Reward",
@@ -56,8 +56,8 @@
         "body": "Add ETH-YAMv1 Uniswap Pool to the initial Distribution\nETH-YAMv1 Uniswap V2 Pool: 6600 YAMS.\nYAMv3/yUSD Uniswap V2 Pool: 161,700 YAMS.\nETH-YAMv3 Uniswap V2 Pool: 161,700 YAMS.\nDuring the V1-V2 migration, about 2% of holders missed the final conversion time because they did not receive the reminder. The spirit of the blockchain needs to take care of the safety of all token holders\n"
     },
     "QmPVbErQ9Au7Q3RJ88FuvjKWgD42FWPJrMpVVuNQvC9PFe": {
-        "name": "YIP-7: Increase Rewards For Yamv2 Holders",
-        "body": "Current YamV2 holders have endured high volatility and maintained support for the project. It is proposed that the rewards ration Yamv2 to Yamv3 be increased to 1:2"
+        "name": "YIP-7: 提高 Yamv2持有者的奖励",
+        "body": "当前的YamV2持有者承受了高波动性并保持了对该项目的支持。建议将Yamv2到Yamv3的奖励比例提高到1：2"
     },
     "QmQgsKr4yyV9iWKFZhLD1eXWmZkZW5SCMhgZXkmnXoxE8k": {
         "name": "Improve the conditions for making new proposals",
@@ -84,8 +84,8 @@
         "body": "We propose limiting the total number of YAMv3 tokens distributed to YAMv3 liquidity providers to be no greater than 10% of the YAMv2 supply.\n\nThe circulating supply of YAMv2 tokens is approximately 3,726,411. YIP-2 (https://snapshot.page/#/yam/proposal/Qmc1GpiLaPXRLsXw31R1RznKrMTnzmonbSn2kCXVwxUWTV) would inflate the token supply by almost 30% (1,100,000 YAMv3 tokens). \n\nWhile we acknowledge the importance of incentivizing liquidity provision, early investors and early token holders should not be heavily diluted. Therefore, we propose limiting the total number of YAMv3 tokens distributed to YAMv3 LPs to be no larger than 10% of the YAMv2 supply. This would keep the doors open for the public, while protecting the current token holders from inflation.\n\nFor example, if the migration is 1:1, the total number of YAMv3 tokens distributed to YAMv3 LPs will be capped at approximately 372,641."
     },
     "Qmc9fAMNHkGoDMw7ujMC5xrV8k92PiA7QuezPNhmdQFDeW": {
-        "name": "YIP-5: YAMv3 3-day Migration Period",
-        "body": "We propose a token migration from v2 to v3, in which the migration contract is only active for 3 days. After the 3-day period, no YAMv2 tokens can be migrated to YAMv3.\nThis approach is similar to the previous migration from v1 to v2. This approach can give us certainty regarding the total supply of YAMv3."
+        "name": "YIP-5: YAMv3 3天迁移时间",
+        "body": "我们建议将令牌从v2迁移到v3，其中迁移合同仅有效3天。在三天的时间之后，无法将YAMv2令牌迁移到YAMv3。\n此方法类似于之前从v1迁移到v2的方法。这种方法可以使我们确定YAMv3的总供应量。"
     },
     "QmPqrLyb1RxHLe9T6XoiAzUDkL8ajZkkkj9PvcrrKTEkEc": {
         "name": "Add AMPL/YAM Farming Pool in YAMv3",
@@ -104,12 +104,12 @@
         "body": "Just two proposes\n\n1、When rebase additional issue，the holder have less yam token ，more percent of additional issue he have.\n\n2、When rebase deflation，the holder have more yam token ，less percent of deflation he have.\n\nInitiator : 33357\n\n//\n\n两条建议：\n\n1、当YAM通过rebase增发时，持有YAM越少的人增发的比例越高。\n\n2、当YAM通过rebase通缩时，持有YAM越多的人通缩的比例越少。\n\n发起者：33357"
     },
     "QmaifNEzQ9F93ivNaZ6SRJei9QHrxoJpUTKucehHSYL7Sx": {
-        "name": "YIP-3: Delegator Rewards",
-        "body": "We propose that the ratio of V2 tokens that migrate to V3 will be:\n1 V2 token : 0.8 V3 token.\n\nAnd use the remaining 20% to reward the delegators proportionally following  this snapshot:  https://raw.githubusercontent.com/yam-finance/yam-protocol/master/yam_delegator_snapshot_10650187_draft.json"
+        "name": "YIP-3: 投票人奖励",
+        "body": "我们建议迁移到V3的V2代币的比例为：\ n 1 V2代币：0.8 V3代币。\n\ n并使用剩余的20％在此快照之后按比例奖励投票人：https：//raw.githubusercontent.com/yam-finance/yam-protocol/master/yam_delegator_snapshot_10650187_draft.json"
     },
     "QmShrmWxTZdLfrF926wqmY7RLsNMGoWRwfLyvbd96YZjin": {
-        "name": "YIP-6: Proposal Conflict Resolution ",
-        "body": "I, Brock Elmore, propose the following:\n\nItem 1: Conflicting Proposal With Same End Time goes to affirmative vote count\n\nIf two proposals that conflict with each other have the same end date, and both pass and reach quorum, the winner shall be decided by the proposal that has the greater number of votes in the affirmative. \n\nItem 2: Furthermore, in the case of same affirmative vote count, both proposals are invalid\n\nIf two proposals that conflict with each other have the same end date, and both pass, reach quorum, and have the same number of affirmative votes, both proposals are considered invalid.\n"
+        "name": "YIP-6: 提案冲突解决办法 ",
+        "body": "我是布罗克·埃尔莫尔（Brock Elmore），提出以下建议：\n \n第1项：具有相同结束时间的提案相互冲突，以赞成票数计算\n \n如果两个相互冲突的提案具有相同的结束日期，并且都通过并达到了法定人数，获胜者应该是赞成票数多的提案。 \n \n项目2：此外，在相同的赞成票数情况下，两个提案都无效\n \n如果两个彼此冲突的提案的结束日期相同，并且都通过，达到法定人数并且获得相同数量的赞成票，这两个建议都被视为无效。\n"
     },
     "QmPa5eaG7Eivr3bqKc4BjiFx8MYF82WjqYxcw2vCAj4QJN": {
         "name": "Raise peg to USD 167.66",
@@ -128,7 +128,7 @@
         "body": "We propose that the ratio of V2 tokens that migrate to V3 will be:\n1 V2 token: 0.8 V3 tokens.\nHowever, the delegator must hold at least a 3x token following this snapshot.\n\nhttps://raw.githubusercontent.com/yam-finance/yam-protocol/master/yam_delegator_snapshot_10650187_draft.json\n\nEG : If you delegated 1,000 OG Yams, you should hold at least 3,000 Yams V2 to claim your delegated bonus.\n\nThis will increase Yam's demand from delegator who sell token and waiting to dump a free coin when they claim the delegator reward."
     },
     "QmdSZjHDZL1nGHRKq6G9wVwtxfHtBEu9HMgbK46bvhXZyX": {
-        "name": "YIP-3: Add ETH-YAMv3 Uniswap Pool to the initial Distribution",
-        "body": "This proposal amends item 2 of the YIP-2 proposal to add the ETH-YAMv3 Uniswap V2 Pool to the initial Incentivization Distribution of YAMv3. If passed, it will split the initial 330,000 YAMv3 rewards in the following manner:\n\n* YAMv3/yUSD Uniswap V2 Pool: 165,000 YAMS.\n* ETH-YAMv3 Uniswap V2 Pool: 165,000 YAMS.\n\nThe reasoning for this change is to facilitate a one step YAMv3-ETH bridge and also to promote arbitrage trading between these two pairs. \n\nThe rest of the YIP-2 proposal would remain the same, meaning Incentives will be reduced by 30% each week for each pool, totaling a 1.1MM YAMv3 tokens to be distributed to stakers.\n\nThis proposal will go live 1 block after its parent YIP-2 proposal and it has a 3 day duration for voting. \n\n**TL;DR:**\n* Change YIP-2 Proposal to split 50%-50% the initial 330,000 YAMv3 of the Incentivization Distribution between the ETH-YAMv3 and the YAMv3/yUSD Uniswap V2 Pools.\n* Everything else in the YIP-2 proposal remains intact. "
+        "name": "YIP-3: 添加 ETH-YAMv3 Uniswap Pool 成为初始分配矿池",
+        "body": "该提案修改了YIP-2提案的条例2，将ETH-YAMv3 Uniswap V2池添加到YAMv3的初始激励分配中。如果通过，它将以以下方式分配初始的330,000 YAMv3奖励：\n \n * YAMv3 / yUSD Uniswap V2池：165,000 YAMS。\n * ETH-YAMv3 Uniswap V2池：165,000 YAMS。\n \n这一变化是为了进一步促进的YAMv3-ETH桥接，也促进这两对货币之间的套利交易。 \n \nYIP-2提案的其余部分将保持不变，这意味着每个池的奖励将每周减少30％，总计一百一十万的YAMv3代币将分发给涉众。\n \n该提案将生效在其父级YIP-2提案之后1个区块，并且投票期为3天。 \n \n ** TL; DR：** \n *更改YIP-2提案，将ETH-YAMv3和YAMv3 / yUSD Uniswap V2池之间的初始分配的330,000 YAMv3分配给初始奖励330,000 YAMv3。 \n * YIP-2提案中的所有其他内容均保持不变。 "
     }
 }
