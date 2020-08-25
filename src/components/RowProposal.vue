@@ -5,7 +5,7 @@
   >
     <div>
       <State :proposal="proposal" class="d-inline-block mr-2 mb-2" />
-      <h3 v-text="proposal.msg.payload.name" class="d-inline-block mb-1" />
+      <h3 v-text="proposalCN[i].name || proposal.msg.payload.name" class="d-inline-block mb-1" />
     </div>
     <div>
       <span v-text="`#${i.slice(0, 7)}`" />
@@ -20,7 +20,14 @@
 </template>
 
 <script>
+import proposalCN from '@/proposal.json';
+
 export default {
+  data() {
+    return {
+      proposalCN
+    };
+  },
   props: {
     token: String,
     proposal: Object,
