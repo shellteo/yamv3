@@ -54,6 +54,14 @@
             <UiButton @click="modalAboutOpen = true" class="ml-2">
               <span v-text="'?'" class="ml-n1 mr-n1" />
             </UiButton>
+            <!-- <UiButton class="button-outline width-full">
+              <Icon name="github" class="mr-1" />
+              github.com/{{ pkg.repository }}
+              <Icon name="external-link" class="ml-1" />
+            </UiButton> -->
+            <UiButton class="ml-2">
+              <a href="https://github.com/shellteo/yamv3" target="_blank"><Icon name="github" class="mr-1" /></a>
+            </UiButton>
           </div>
         </div>
         <ModalAccount
